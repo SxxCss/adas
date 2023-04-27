@@ -1,0 +1,91 @@
+body{
+    margin: 50px 30px 30px 100px;
+    padding: 0;
+    background-image: url("ok.jpeg")
+}
+
+div{
+    width:1400px;
+}
+
+#naglowek{
+    width: 1400px;
+    height: 130px;
+    background-color: darkslategray;
+    color:red;
+    font-size:70pt;
+}
+
+#menu{
+    width: 200px;
+    height:528px;
+    float: left;
+    overflow: hidden;
+    background-color: rgb(7, 29, 29);
+    color:red;
+    font-size: 40pt;
+    text-align: center;
+}
+
+#tresc{
+    background-color: rgba(0, 0, 0, rgba(0, 0, 0, 0.5)); 
+    background: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 528px;
+    overflow: hidden;
+    float: left;
+    color: orange;
+    font-size: 15pt;
+    background-image: url("");
+}
+
+#stopka{
+    clear: both;
+    background-color: darkslategray;
+    width: 1400px;
+    height: 55px;
+    text-align: center;
+    color:red;
+    font-size: 50pt;
+}
+a:hover:visited{
+    color: orange;
+}
+a:link{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:visited{
+    color: red;
+}
+img{
+    float: right;
+    width: 320px;
+    height: 320px;
+    padding: 25px 20px;
+}
+
+p{
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+
+.ok{
+    position: relative;
+    top: -20px;
+    left: -533px;
+    width: 300px;
+    height: 50px;
+}
+
+
+
+#logo{
+    position: absolute;
+    top: 1px;
+    right: 1280px;
+    width: 150px;
+    height: 175px;
+}
